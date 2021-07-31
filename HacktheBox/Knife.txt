@@ -30,7 +30,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 + The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ==>EXPLOIT
 
