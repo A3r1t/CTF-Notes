@@ -2,7 +2,7 @@
 My Notes for different Machines 
 ***
 Machines Pwned:
-- Love
-- Knife
-- Shocker
 - Bastion
+- Knife
+- Love
+- Shocker
