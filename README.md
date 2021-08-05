@@ -1,6 +1,6 @@
 # CTF-Notes HackTheBox 
 My Notes for different Machines 
 ***
-Machines Pawned:
+Machines Pwned:
 - LOVE
 - KNIFE
