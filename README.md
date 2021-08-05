@@ -5,3 +5,4 @@ Machines Pwned:
 - Love
 - Knife
 - Shocker
+- Bastion
