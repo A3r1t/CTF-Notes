@@ -2,5 +2,6 @@
 My Notes for different Machines 
 ***
 Machines Pwned:
-- LOVE
-- KNIFE
+- Love
+- Knife
+- Shocker
