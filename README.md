@@ -1,7 +1,7 @@
 # CTF-Notes HackTheBox 
 My Notes for different Machines 
 ***
-Machines Pwned:
+HTB Machines Pwned:
 - Bastion
 - Knife
 - Love
