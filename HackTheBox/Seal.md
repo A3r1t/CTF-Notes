@@ -10,6 +10,9 @@ PORT     STATE SERVICE
 
 ##### 🔎 Detailed Scan 
 	
+<details>
+<summary>NMAP SCAN</summary>
+	
 ```text
 PORT     STATE SERVICE    VERSION
 22/tcp   open  ssh        OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
@@ -90,6 +93,7 @@ PORT     STATE SERVICE    VERSION
 |_  Supported Methods: GET HEAD POST OPTIONS
 |_http-title: Site doesn't have a title (text/html;charset=utf-8).
 ```
+</details>
 
 ***
 #### 🔱 Enumrating port 8080
