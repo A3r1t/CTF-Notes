@@ -35,7 +35,8 @@ A submit Form , On Intercepting Request using `Burp`
 </bugreport>
 ```
 
-Content of **`/etc/passwd`**
+<details>
+    <summary>Content of /etc/passwd</summary>
 
 ```text
 root:x:0:0:root:/root:/bin/bash
@@ -73,6 +74,7 @@ development:x:1000:1000:Development:/home/development:/bin/bash
 lxd:x:998:100::/var/snap/lxd/common/lxd:/bin/false
 usbmux:x:112:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
 ```
+</details>
 
 - Another Payload to get Contents of `db.php` Since Its not directly Accessable 
 
@@ -125,6 +127,9 @@ User `development` may run the following commands on bountyhunter:
     
 Reading the File `/opt/skytrain_inc/ticketValidator.py`
 
+<details>
+<summary>tickeyValidator.py</summary>
+    
 ```python
 def evaluate(ticketFile):
     #Evaluates a ticket to check for ireggularities.
@@ -170,7 +175,10 @@ def main():
 main()
 ```
 
-From the reading the `invalid-Tickets` avalible on machine and `eval` function in The above code , can make a own ticket to get root
+</details>
+
+
+- **From the reading the `invalid-Tickets` avalible on machine and `eval` function in The above code , can make a own ticket to get root**
 
 
 ```text
@@ -182,8 +190,7 @@ __Ticket Code:__
 #End Ticket
 ```
 
-***
-***
+---
 
 # ➕ Resouces
 
