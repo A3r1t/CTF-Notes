@@ -1,7 +1,9 @@
 # CTF-Notes HackTheBox 
-My Notes for different Machines 
+Notes available for the following boxes : 
 ***
 HTB Machines Pwned:
-- Bastion
-- Love
-- Shocker
+- Bastion 💂
+- Love 💖
+- Shocker ⚡
+- Bounty Hunter 🗡
+- Seal 🦭
