@@ -6,6 +6,7 @@ Notes available for the following boxes :
 - Bounty Hunter 🗡
 - Seal 🦭
 - Writer 📃
+- Previse 📂
 
 ## PWN Challenges
 - Jeeves
