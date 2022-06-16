@@ -8,6 +8,7 @@ Notes available for the following boxes :
 - Writer 📃
 - Previse 📂
 - Bolt 🔩
+- NodeBlog ☁️
 
 ## PWN Challenges
 - Jeeves
