@@ -7,6 +7,7 @@ Notes available for the following boxes :
 - Seal 🦭
 - Writer 📃
 - Previse 📂
+- Bolt 🔩
 
 ## PWN Challenges
 - Jeeves
