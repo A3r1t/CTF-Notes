@@ -9,6 +9,7 @@ Notes available for the following boxes :
 - Previse 📂
 - Bolt 🔩
 - NodeBlog ☁️
+- Meta 🔖
 
 ## PWN Challenges
 - Jeeves
