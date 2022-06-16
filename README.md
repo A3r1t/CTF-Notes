@@ -5,6 +5,7 @@ Notes available for the following boxes :
 - Shocker ⚡
 - Bounty Hunter 🗡
 - Seal 🦭
+- Writer 📃
 
 ## PWN Challenges
 - Jeeves
