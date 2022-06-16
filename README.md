@@ -1,4 +1,4 @@
-# CTF-Notes HackTheBox 
+# HackTheBox Machines
 Notes available for the following boxes : 
 - Bastion 💂
 - Love 💖
